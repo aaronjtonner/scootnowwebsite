@@ -28,7 +28,7 @@ export default function FinanceBanner() {
       <Container>
         <Wrapper>
           <div>
-            <p className="subheader">get the landscape financing you need</p>
+            <p className="subheader"> get the landscape financing you need</p>
             <h2 className="title">payment plans to match any budget</h2>
           </div>
           <p>
