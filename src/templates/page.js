@@ -22,7 +22,7 @@ const PageTemplate = pageProps => {
   return (
     <>
       <Layout>
-        <SEO title="title" description="description" />
+        <SEO title="E-Scooter Rentals in Truro, NS with Scoot Now!" description="With our easy-to-use app, locating and renting an e-scooter is a breeze. You can effortlessly cruise around town, covering more ground than you would on foot and without having to worry about parking." />
         {components.map((component, index) => {
           // ### COMPONENT RENDERING ### DO NOT MODIFY OR MOVE THIS COMMENT ###
           return <div>Error: The component {component.name} was not found</div>

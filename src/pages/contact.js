@@ -10,7 +10,7 @@ import BannerImg from "../images/contact-banner.jpg"
 export default function Contact() {
   return (
     <Layout>
-      <SEO title="Contact Us" description="Contact us to scoot now!" />
+      <SEO title="Contact Us - Scoot Now" description="Contact us to scoot now!" />
       <Banner
         img={BannerImg}
         title="contact the e-scooter experts!"

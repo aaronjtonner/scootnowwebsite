@@ -3,6 +3,7 @@ import React from "react"
 import styled from "styled-components"
 import { Container, Section, FlexMobileOpp, Flex } from "../../layoutComponents"
 import { ButtonPrimary } from "../../buttons"
+import Download from "../../download"
 
 const Text = styled.div``
 
@@ -33,17 +34,7 @@ export default function ImageLeft({ subheader, title, body, image }) {
               }}
             ></div>
             <ButtonPrimary to="/contact">talk to us today</ButtonPrimary>
-            <Flex>
-              <a href="https://apps.apple.com/app/id1466963267" target="_blank">
-                <StaticImage src="../../../images/apple-badge.png" />
-              </a>
-              <a
-                href="https://play.google.com/store/apps/details?id=levy.app"
-                target="_blank"
-              >
-                <StaticImage src="../../../images/google-play-badge.png" />
-              </a>
-            </Flex>
+           <Download />
           </Text>
         </FlexMobileOpp>
       </Container>

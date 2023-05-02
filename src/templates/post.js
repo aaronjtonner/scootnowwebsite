@@ -31,6 +31,14 @@ const BlogArticle = styled.article`
     text-transform: uppercase;
     color: var(--clr-accent);
   }
+
+  h2 {
+    font-family: var(--ff-alfa);
+  font-size: var(--fs-2);
+  font-weight: var(--fw-500);
+  text-transform: capitalize;
+  line-height: 1.1;
+  }
 `
 
 // Banner
