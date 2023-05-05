@@ -245,7 +245,7 @@ const Burger = styled.div`
     width: 25px;
     height: 3px;
     margin: 5px;
-    background-color: var(--clr-dark);
+    background-color: var(--clr-accent);
 
     :nth-child(1) {
       transform: ${({ nav }) =>
